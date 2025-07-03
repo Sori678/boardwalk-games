@@ -124,6 +124,33 @@ h2 {
   border: none;
 }
 
+/* Game reservation */
+
+#reserv-form {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+
+#reserv-form label {
+  margin-bottom: 0.5rem;
+
+}
+
+.form-reservation {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+#reserv-form .button-submit {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
 /* Footer / Contact */
 #contact {
   background-color: var(--primary-color);
@@ -171,6 +198,19 @@ h2 {
 
 /* Media queries */
 
+@media screen and (min-width: 320px) {
+
+  /* Make all service cards the same height for consistency */
+  #events .table-hover {
+    font-size: 1rem;
+  }
+  .student-discount {
+    font-size: 1rem;
+  }
+ 
+
+}
+
 /* Small devices (mobile phone, 576px and up */
 @media screen and (min-width: 576px) {
 
@@ -181,7 +221,7 @@ h2 {
 
   .student-discount {
     font-size: 1rem;
-    ;
+  
   }
 
 }
@@ -202,7 +242,10 @@ h2 {
   #services .card-body {
     min-height: auto;
   }
-
+.text-game {
+    padding: 0 15px;
+  margin: 0 11% 10px 11%;
+  }
 }
 
 /* Large devices (Laptops, 992px and up */
@@ -212,7 +255,10 @@ h2 {
   #services .card-body {
     min-height: 220px;
   }
-
+.text-game {
+  padding: 0 15px;
+  margin: 0 11% 10px 11%;
+  }
 }
 
 /* Large devices (Laptops and extra large screens, 992px and up */
@@ -222,5 +268,8 @@ h2 {
   #services .card-body {
     min-height: 195px;
   }
-
+  .text-game {
+    padding: 0 15px;
+  margin: 0 11% 10px 11%;
+  }
 }
