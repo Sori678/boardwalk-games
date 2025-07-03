@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
@@ -19,7 +26,7 @@
 
 body {
   font-family: var(--primary-font);
-  padding: 57. 15px;
+  padding: 57.15px;
 }
 
 h1,
@@ -99,7 +106,7 @@ h2 {
 }
 
 #services .card {
-  margin-bottom: 1, 5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* Events */
@@ -146,8 +153,12 @@ h2 {
 }
 
 #reserv-form .button-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 
 }
 
@@ -175,7 +186,10 @@ h2 {
 #contact .social-links i {
   color: var(--highlight-color-light);
   font-size: 1.9rem;
-  transition: color 0.3 ease-in-out;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+
 }
 
 #contact .social-links i:hover {
@@ -204,10 +218,11 @@ h2 {
   #events .table-hover {
     font-size: 1rem;
   }
+
   .student-discount {
     font-size: 1rem;
   }
- 
+
 
 }
 
@@ -221,7 +236,7 @@ h2 {
 
   .student-discount {
     font-size: 1rem;
-  
+
   }
 
 }
@@ -242,9 +257,10 @@ h2 {
   #services .card-body {
     min-height: auto;
   }
-.text-game {
+
+  .text-game {
     padding: 0 15px;
-  margin: 0 11% 10px 11%;
+    margin: 0 11% 10px 11%;
   }
 }
 
@@ -255,9 +271,10 @@ h2 {
   #services .card-body {
     min-height: 220px;
   }
-.text-game {
-  padding: 0 15px;
-  margin: 0 11% 10px 11%;
+
+  .text-game {
+    padding: 0 15px;
+    margin: 0 11% 10px 11%;
   }
 }
 
@@ -268,8 +285,9 @@ h2 {
   #services .card-body {
     min-height: 195px;
   }
+
   .text-game {
     padding: 0 15px;
-  margin: 0 11% 10px 11%;
+    margin: 0 11% 10px 11%;
   }
 }
